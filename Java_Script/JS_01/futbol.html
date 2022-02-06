@@ -1,0 +1,35 @@
+<meta charset = "UTF-8">
+<script>
+
+function linha() {
+
+	document.write("<br>");
+
+}
+
+function mostra(frase) {
+
+	document.write(frase);
+	linha()
+
+}
+
+var anoPassado = parseInt(prompt("quantos pontos seu time fez ano passado?"))
+var vitorias = parseInt(prompt("entre com o numero de vitorias"));
+var empates = parseInt(prompt("entre com o numero de empates"));
+var pontos = vitorias*3 + empates
+mostra("o seu time fez "+ pontos +" pontos");
+
+if (pontos > anoPassado) {
+	mostra("seu time esta melhor que o ano passado")
+}
+if(pontos == anoPassado){
+	mostra("seu time esta igual ao ano passado")
+}
+if (pontos < anoPassado){
+	mostra("seu time esta pior que o ano passado")
+}
+
+mostra("fim")
+
+</script>

@@ -1,2 +1,3 @@
-# RocketSeat-Discover
-tracking of my studies on the RocketSeat platform
+# Web_Classes
+
+Folder to keep tracking of my web-development courses 

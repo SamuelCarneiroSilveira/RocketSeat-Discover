@@ -1,0 +1,29 @@
+<meta charset = "UTF-8">
+<script>
+	
+function linha(){
+	document.write("<br>")
+}
+function mostra(frase){
+	document.write(frase)
+	linha()
+}
+function sorteia(n) {
+return Math.round(Math.random() * n)
+
+}
+
+var numeroPensado = sorteia(10)
+var chute = parseInt(prompt("chute um numero entre 0 e 10"))
+
+if (chute==numeroPensado) {
+	mostra("parabens, voce acertou :D")
+} else {
+	mostra("Você errou ://, o numero pensado foi "+numeroPensado)
+	if (numeroPensado < chute){
+		mostra("o seu chute foi um numero maior que o numero pensado")
+	} else{
+		mostra("o seu chute foi um numero menor")
+	}
+}
+</script>

@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+	function pulaLinha() {
+
+		document.write("<br>");
+	}
+	
+	function mostra(frase){
+
+		document.write(frase);
+		pulaLinha();
+	}
+	
+		var primeirageracao = 1528
+		var anoqueestamos = 2019
+		var diferenca
+		var numero
+
+		diferenca = anoqueestamos - primeirageracao
+		numero = Math.round(diferenca/28);
+		
+		mostra("em  "+diferenca+ " anos");
+		mostra("viveram "+ numero +" gerações")
+
+		
+		
+
+</script>

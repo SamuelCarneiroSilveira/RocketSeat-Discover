@@ -1,0 +1,12 @@
+<meta charset = "UTF-8" >
+
+<script>
+
+	document.write("<h1> sejam bem vindos </h1>");
+	document.write("flavio nasceu em " + (2016-39));
+	document.write("<br>");
+	document.write("joaquim nasceu em " + (2016-20));
+	document.write("<br>"); 
+	document.write("barnei nasceu em " + (2016-40));
+
+</script>

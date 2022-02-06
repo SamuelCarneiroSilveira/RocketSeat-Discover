@@ -1,0 +1,12 @@
+<meta charset ="UTF-8">
+
+<script>
+
+	var Linda = 12
+	var guaraciara = 15
+	var perola = 13
+
+	var soma = (Linda + guaraciara + perola)
+	document.write(Math.round(soma/3));
+
+</script>
